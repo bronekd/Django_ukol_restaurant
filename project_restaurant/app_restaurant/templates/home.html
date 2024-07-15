@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "master.html" %}
 
-<p> Ahoj na domovské stránce</p>
+{% block title %}
+  HomePages
+{% endblock %}
 
-</body>
-</html>
+{% block content %}
+  <h1>Home</h1>
+
+  <p>Tady je nějaký text na Home</p>
+
+{% endblock %}
